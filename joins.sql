@@ -64,3 +64,6 @@ select * from orders where customer_id  IN (select customer_id from customers wh
 
 delete from customers
 where customer_id = 11;
+
+
+alter table sql_inventory.products add seller varchar(50);
